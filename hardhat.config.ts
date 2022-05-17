@@ -4,6 +4,7 @@ import "@typechain/hardhat";
 import "@nomiclabs/hardhat-ethers";
 import "@nomiclabs/hardhat-waffle";
 import "@nomiclabs/hardhat-etherscan";
+import { config } from "dotenv";
 require("hardhat-contract-sizer");
 require("dotenv").config();
 require("solidity-coverage");
